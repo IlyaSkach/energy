@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.scss";
 import Header from "./companents/Header/Header";
 import Title from "./companents/Title/Title";
