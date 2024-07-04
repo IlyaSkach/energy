@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "MyCustomFont";
+	src: url("../../../public/Fonts/Journal\ Sans\ Old\ School-Pattern-Regular.otf") format("opentype");
+}
+
+.contacts {
+	// display: flex;
+	align-items: center;
+	padding: 0 10px; // Отступы с боков по 10px
+	margin-bottom: 300px;
+	&__title {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	&__name {
+		margin-bottom: 25px;
+		text-align: center;
+		font-family: 'MyCustomFont', sans-serif; /* Замените 'MyCustomFont' на имя вашего шрифта */
+   margin-top: 25px;
+    font-size: 50px;
+	}
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	// &__href {
+	// 	margin-left: 50px;
+	// }
+}

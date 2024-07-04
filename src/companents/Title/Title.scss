@@ -1,0 +1,17 @@
+// Title.scss
+
+.title {
+	background-image: url('../../Image/title_img.png'); // Путь к вашему изображению
+	background-size: cover; // Покрытие всей доступной области
+	background-position: center; // Центрирование изображения
+	height: 200px;
+
+	&__text {
+		position: relative;
+		top: -50%; // Сдвигает текст вверх на половину своей высоты, заходя на section
+		margin-top: -1em; // Или другое значение, чтобы добиться нужного эффекта перекрытия
+		text-align: center;
+		color: #fdd03b;
+		margin-bottom: 20px;
+	}
+}

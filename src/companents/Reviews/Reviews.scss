@@ -1,0 +1,36 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px; // Отступы с боков по 10px
+  &__title{
+    margin-bottom: 20px;
+  }
+}
+
+.reviews img {
+  width: 100%; // Примерный размер картинки, установите нужный
+
+}
+
+
+.reviews__main {
+  position: relative;
+  width: 100%; // Ширина соответствует ширине картинки
+  text-align: center; // Текст по центру
+  background-color: #4a9396; // Голубой фон
+  padding: 10px 0; // Паддинги для увеличения высоты квадрата
+  
+  // Центрирование по горизонтали
+  left: 50%;
+  transform: translateX(-50%);
+  // Центрирование относительно картинки сверху
+  top: -50%;
+}
+
+
+.reviews__text {
+  text-align: center; // Текст параграфа по центру
+	padding: 10px 10px;
+  margin-bottom: 10px;
+}
